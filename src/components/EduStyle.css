@@ -1,0 +1,85 @@
+.education{
+    /* height: 300px; */
+    width: 100%;
+    background: #000;
+    transform: translateZ(0);
+    /* margin-top: -80px; */
+    margin-top: 70px;
+}
+.schooling{
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 80%; */
+    margin: auto;
+    box-shadow: rgba(254, 254, 255, 0.2) 0px 7px 29px 0px
+}
+.schooling h2{
+    color: white;
+}
+.summery{
+    border-left: 1px solid white;
+    padding-left: 1rem;
+    
+}
+.one{
+    display: flex;
+    position: relative;
+}
+.one::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  height: 15px;
+  width: 15px;
+  border: 1px solid white;
+  border-radius: 100px;
+  background-color: #000;
+}
+
+.one h3{
+    color: white;
+}
+.s-details{
+    padding-left: 50px;
+}
+.s-details h2{
+    color: yellow;
+}
+.skills{
+    margin-top: 1rem;
+    text-align: center;
+}
+.skills .skills-heading h1{
+    font-weight: 600;
+}
+.skill-cards{
+    /* width: 85%; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.card{
+    /* height: 100px; */
+    width: 100px;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(254, 254, 255, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s;
+}
+.card:hover{
+ transform: scale(1.2);
+}
+@media screen and (max-width: 640px){
+    .s-details h1{
+        font-size: 1rem;
+    }
+    .s-details p{
+        font-size: x-small;
+    }
+}

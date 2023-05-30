@@ -1,0 +1,45 @@
+.hero-img{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before{
+     content: "";
+     height: 100%;
+     width: 100%;
+     background-image: url(C:\Users\DEEPAK\Desktop\portfolio-react\src\assets\pexels-lee-campbell-115655.jpg);
+     background-size: cover;
+     background-position: center top;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+
+}
+
+.heading{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 640px){
+    .hero-img h1{
+        font-size: 1.5rem
+    }
+    
+   .heading p{
+      font-size: smaller;
+    }
+}

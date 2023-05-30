@@ -1,0 +1,19 @@
+.contact-details{
+    margin-top: 3rem;
+}
+.contact-head{
+    color: white;
+    text-align: center;
+}
+.contact-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:640px) {
+    .contact-icons{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
